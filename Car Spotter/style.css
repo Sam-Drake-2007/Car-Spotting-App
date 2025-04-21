@@ -1,7 +1,8 @@
 body {
-    background-color: #f0f0f0;
+    background-color: #f5ffd8;
     font-family: Arial, sans-serif;
     margin: 0px;
+    font-size: clamp(1vw, 2vw, 4vw);
 }
 
 
@@ -12,7 +13,7 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
-    font-size: 50px;
+    font-size: 3em;
 }
 
 .stats-text {
@@ -27,26 +28,25 @@ body {
     display: grid;
     justify-items: center;
     align-items: center;
-    height: clamp(57.5vw, 115vw, 230vw);
+    height: 50em;
     grid-template-columns: repeat(auto-fit, minmax(30vw, 1fr));
-    padding: 10px;
-    gap: 10px;
+    padding: 1em;
+    gap: 1em;
 }
 
 .brand-button {
-    font-size: clamp(2.5vw, 5vw, 10vw);
-    width: clamp(15vw, 30vw, 60vw);
+    font-size: 3em;
+    width: 5.2em;
     height: 100%;
-    max-height: 100%;
     border: none;
-    border-radius: 10px;
-    background-color: #ffffff;
-    box-shadow: 0 2px 6px black;
+    border-radius: 0.4em;
+    background-color: #f3fdb7;
+    box-shadow: 0 0.1em 0.15em black;
     cursor: pointer;
-    transition: background-color 0.2s ease, box-shadow 0.2s ease;
+    transition: background-color 0.2s ease, transform 0.2s ease;
 }
 
 .brand-button:hover {
-    background-color: #dadada;
-    box-shadow: 0 4px 10px rgb(80, 80, 80);
+    background-color: #f8ffcd;
+    transform: scale(1.03);
 }
