@@ -44,6 +44,10 @@ body {
     box-shadow: 0 0.1em 0.15em black;
     cursor: pointer;
     transition: background-color 0.2s ease, transform 0.2s ease;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    line-height: 3.8em;
 }
 
 .brand-button:hover {
